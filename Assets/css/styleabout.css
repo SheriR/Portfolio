@@ -90,18 +90,27 @@ p{
   outline: none;  
   }
 
-input[type=text], select{
-width: 100%;
-padding: 12px 20px;
-margin: 8px 0;
+.contactme {
+width: 95%;
+padding-left: 18px;
 display: inline-block;
-border: 1px solid #dddddd;
-border-radius: 4px;
-box-sizing: border-box;
 font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 
+H3 {
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: #777777;
+padding: 5px
+}
 
+textarea {
+  width:100%;
+  height: 150px;
+}
+input {
+  width: 100%;
+  height: 30px;
+}
 
  .footer{
   position: fixed;  
@@ -126,23 +135,117 @@ h6{
   font-size: x-small;
   vertical-align: text-bottom;
 }
- 
 
-.portfolioimage1 {
+.image {
   position: relative;
+  inline-size: auto;
+
 }
 
-.text-block1 {
+.MyWork1 {
+	width: 15em;
+  float: left;
+  padding-bottom: 15px;
+}
+
+.MyWork2 {
+	position: static;
+	width: 15em;
+}
+
+.MyWork3 {
+	clear: left;
+	position: static;
+	width: 15em;
+	float: left;
+}
+
+.MyWork4 {
+	position: static;
+	width: 15em;
+}
+
+.MyWork5 {
+	position: static;
+	width: 15em;
+}
+.captionA {
+	text-align: center;
+	position: inherit;
+	top: 210px;
+	margin-left:17px;
+	width: 14em;	
+	color: #ffffff;
+	background-color: #4aaaa5;
+	padding: 10px;
+	vertical-align: inherit;
+  height: 15px;
+}
+
+.captionB {
+	text-align: center;
+	position: inherit;
+	top: 175px;
+  width: 14em;
+	height: 15px;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	padding: 10px;
+	vertical-align: inherit;
+  float:right; 
+  margin-right: 25.25em;
+}
+
+.captionC {
+	text-align: center;
+	position: absolute;
+	top: 345px;
+	margin-left: 17px;
+	width: 14em;
+	height: 15px;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	padding: 10px;
+	vertical-align: inherit;
+}
+
+.captionD {
+	text-align: center;
+	position: inherit;
+	top: 175px;
+	width: 13.8em;
+	height: 15px;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	padding: 10px;
+	vertical-align: inherit;
+  float:right; 
+  margin-right: 25.5em;
+}
+
+.captionE {
+text-align: center;
 position: absolute;
-bottom: 20px;
-right: 20px;
-background-color: #4aaaa5; 
-color: white;
-padding-left: 20px;
-padding-right: 20px;
-
+top: 380px;
+margin-left:566px;
+width: 14em;	
+color: #ffffff;
+background-color: #4aaaa5;
+padding: 10px;
+vertical-align: inherit;
+height: 15px;
 }
 
-    
-    
-    
+#yourname{
+  padding-left: 20px;
+  color: #777777;
+  font-family: 'Arial', 'Helvecta Nue', Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
+
+
+
+
+
+
