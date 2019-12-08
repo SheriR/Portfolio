@@ -1,0 +1,148 @@
+html{
+  height: 100%;
+}
+
+body{    
+    margin: auto;
+    width: 100%;    
+    flex-direction: column;
+    display: flex;
+    height: 100%;
+    min-height: 100vh;
+    background-image: url('../images/Backgroundpapyrus.png')
+}
+
+.links {
+  display: flex;
+  background-color: #ffffff;
+  color: #777777;
+  padding: 10px;    
+  float: right;
+  left: 12em; 
+  margin-right: 20%;
+  }
+
+  .links a{
+    text-decoration: none;
+    color: #777777;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+
+  .name { 
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute; 
+    left: 12em; 
+        
+    }
+   
+   header{
+    width: 100%;     
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    padding: 15px;
+  }
+
+    
+  h2{
+  border: 0;  
+  vertical-align: baseline;
+  justify-content: right;
+  color: #4aaaa5;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  border-top: 25px;
+  border-bottom: 2px solid #dddddd;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+  }
+
+img{
+  float: left;
+  margin: 15px;
+  width: 200px;
+  object-fit: contain;
+  border: 3px solid #dddddd;
+  align-content: center;
+  }
+
+.maincontent{
+  font-family: Arial, Helvetica, sans-serif;
+  width: 940px;
+  margin-top: 10px;
+  color: #777777; 
+  background-color: #ffffff;
+  border-color: #dddddd;
+  outline: solid 2px #dddddd;
+  margin: 0px auto;
+  }
+
+p{ 
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777777;
+  padding: 15px;
+  outline: none;  
+  }
+
+input[type=text], select{
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #dddddd;
+border-radius: 4px;
+box-sizing: border-box;
+font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+
+
+ .footer{
+  position: fixed;  
+  left:0;
+  bottom : 0;
+  width:100%;    
+  background: #666666;
+  border-top: 8px solid #4aaaa5;
+  margin-top: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 1.5em;
+  }
+ 
+h6{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  text-align: center;
+  color: #dddddd;
+  font-size: x-small;
+  vertical-align: text-bottom;
+}
+ 
+
+.portfolioimage1 {
+  position: relative;
+}
+
+.text-block1 {
+position: absolute;
+bottom: 20px;
+right: 20px;
+background-color: #4aaaa5; 
+color: white;
+padding-left: 20px;
+padding-right: 20px;
+
+}
+
+    
+    
+    
