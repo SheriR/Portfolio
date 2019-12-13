@@ -1,8 +1,21 @@
-.header {
+body {
   background-image: url('../images/Backgroundpapyrus.png');
   background-size: cover;
   background-position: center;
   position: relative;
+}
+
+#logo {
+  background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    padding: 10px;    
+    font-weight: bold;
+    position: absolute; 
+    font-size: 25px;
+}
+
+.block {background-color: #ffffff;
 }
 
 
@@ -19,5 +32,9 @@ nav .p {font-family: Arial, Helvetica, sans-serif;
 
 .card-img {
 width: fit-content;
+}
+
+.footer {
+  border-top: 8px solid #4aaaa5;
 }
 
