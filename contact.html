@@ -1,66 +1,90 @@
 <!doctype html>
-<html lang="en-us">
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <title>My Portfolio - Homework week 2 - Contact Page </title>
-
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css?family=Raleway|Solway&display=swap" rel="stylesheet">
-  
-
-  <body> 
-      <!-- My Name --> 
-      <div class="container-fluid containerbackground">
-        <div class="row">
-          <div class="col-sm-6">
-            <h1 class style="background: teal; color:white; position:absolute">Sheri Rhoades</h1> 
-          </div>
-       
-      <!-- Navbar --> 
-      <div class="col-sm-6">
-          <nav class="navbar navbar-expand-sm navbar-light bg-white">
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-item nav-link" href="index.html">About</a>
-                  <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                  <a class="nav-item nav-link active" href="contact.html">Contact <span class="sr-only">(current)</span></a>
-                </div>
-                </div>
-          </nav>
-      </div>
-
-
-
-<div class="maincontent">  
-
-<h2>Contact</h2>
-
-<!-- form to conatact me-->  
-
-<div class="contactme">
-
-    <H3>Name</H3p><br>
+<html lang="en">
+  <head>
     
-    <div class=text>
-      <input type="yourname" name="yourname" value="Name"><br>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <H3>Email</H3>
-      <input type="text" name="email" value="email"><br>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Solway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
+    <title>My Portfolio - Homework week 2 - Contact Page </title>
 
-    </div>
+    </head>
+   
+    <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+          <a class="navbar-brand" href="index.html" id="logo">Sheri Rhoades</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- close container -->
+      </nav>
+      <!-- close navbar-->
 
-    <H3>Message</H3>
-    <textarea> </textarea>    
 
-    <br />
-    <button type="button">Submit</button>
-  </div>
+  <!--Portfolio Container-->
+  <!--Portfolio Container-->
+  <div class="container">
+    <main class="row">
+      <div class="col-md-8">
+        <article class="block p-3 mt-5">
+          <h1 class="block-header text-info">Portfolio</h1>
+          <hr>
+                      
+    <div class="form-group">
+      <label for="name" class="col-sm-2 control-label">Name</label>
+        <div class="col-sm-10">
+          <input type="email" class="form-control" id="name" placeholder="Name">
+          </div>
+         </div>
+     <div class="form-group">
+      <label for="email" class="col-sm-2 control-label">Email</label>
+        <div class="col-sm-10">
+          <input type="password" class="form-control" id="email" placeholder="Email">
+           </div>
+         </div>
+     <div class="form-group">
+      <label class="col-sm-2 control-label" for="msg">Message</label>
+        <div class="col-sm-10">
+          <textarea id="msg" class="form-control" rows="3" placeholder="Message"></textarea>
+          </div>
+        </div>
+        <button class="submit-btn">Submit</button>
+          </form>
+          </div>
+         </section>
+ </main>
 
-<div class="footer">
-  <h6>Copyright &copy;</h6>
+
+<!-- Start of footer -->
+<footer class="footer mt-5">
+  <div class="footerborder"></div>
+  <h6 class="p-3 mb-2 bg-secondary text-light text-center">Copyright &copy</h6>
+  </footer>
+  <!-- End of footer -->
 
 
+  <!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
+</html>
