@@ -1,10 +1,28 @@
-body {
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {  
+  padding: 0;
+  margin: 0; 
+  width: 100vw;  
+  justify-content: center;  
+}
+
+.main {
+  
+}
+
+#page {
   background-image: url('../images/Backgroundpapyrus.png');
   background-size: cover;
   background-position: center;
   position: relative;
+
 }
-#logo {
+#logo.navbar-brand {
   background-color: #4aaaa5;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: white;
@@ -37,13 +55,19 @@ width: fit-content;
   border-top: 8px solid #4aaaa5;
 }
 
-.card-body {
-  background-color: #4aaaa5;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: white;     
+.card-body { 
+  font-family: Georgia, 'Times New Roman', Times, serif;      
   font-weight: bold; 
   padding: 10px;
   text-align: center; 
 
 }
 
+#resultscontainer{
+  padding: 1rem;
+}
+
+.card {
+  margin: 1rem;
+  border: 2px solid darkgray
+}
